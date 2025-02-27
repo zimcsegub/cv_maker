@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Form Styling */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Print Button */
+.print-btn {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+}
